@@ -1,8 +1,10 @@
 <div align="center">
 
+<a href="https://github.com/aryaderangi/gravityzone-panel/blob/main/preview.jpg?raw=true">
 <img src="https://github.com/aryaderangi/gravityzone-panel/blob/main/preview.jpg?raw=true" width="100%" alt="GravityZone Panel Preview"/>
+</a>
 
-# ⚡ GRAVITYZONE Panel Template
+# ⚡ GRAVITYZ👽NE Panel Template
 ### Powered by GravityZone
 
 [![Telegram](https://img.shields.io/badge/Channel-@gravityyzone-0099ff?style=for-the-badge&logo=telegram)](https://t.me/gravityyzone)
@@ -23,79 +25,62 @@ sudo mkdir -p /var/lib/marzban/templates/subscription/
 
 sudo wget -O /var/lib/marzban/templates/subscription/index.html \
 https://raw.githubusercontent.com/aryaderangi/gravityzone-panel/main/index.html
-```
 
-## ست کردن تمپلیت
+ست کردن تمپلیت
 
-```bash
 echo 'CUSTOM_TEMPLATES_DIRECTORY="/var/lib/marzban/templates/"' | sudo tee -a /opt/marzban/.env
 
 echo 'SUBSCRIPTION_PAGE_TEMPLATE="subscription/index.html"' | sudo tee -a /opt/marzban/.env
-```
 
-## ری‌استارت
+ری‌استارت
 
-```bash
 marzban restart
-```
 
 ---
 
-# 🔵 Rebecca
+🔵 Rebecca
 
-## دانلود تمپلیت
+دانلود تمپلیت
 
-```bash
 sudo mkdir -p /var/lib/rebecca/templates/subscription/
 
 sudo wget -O /var/lib/rebecca/templates/subscription/index.html \
 https://raw.githubusercontent.com/aryaderangi/gravityzone-panel/main/index.html
-```
 
-## ست کردن تمپلیت
+ست کردن تمپلیت
 
-```bash
 echo 'CUSTOM_TEMPLATES_DIRECTORY="/var/lib/rebecca/templates/"' | sudo tee -a /opt/rebecca/.env
 
 echo 'SUBSCRIPTION_PAGE_TEMPLATE="subscription/index.html"' | sudo tee -a /opt/rebecca/.env
-```
 
-## ری‌استارت
+ری‌استارت
 
-```bash
 rebecca restart
-```
 
 ---
 
-# 🔵 Pasarguard
+🔵 Pasarguard
 
-## دانلود تمپلیت
+دانلود تمپلیت
 
-```bash
 sudo mkdir -p /var/lib/pasarguard/templates/subscription/
 
 sudo wget -O /var/lib/pasarguard/templates/subscription/index.html \
 https://raw.githubusercontent.com/aryaderangi/gravityzone-panel/main/index.html
-```
 
-## ست کردن تمپلیت
+ست کردن تمپلیت
 
-```bash
 echo 'CUSTOM_TEMPLATES_DIRECTORY="/var/lib/pasarguard/templates/"' | sudo tee -a /opt/pasarguard/.env
 
 echo 'SUBSCRIPTION_PAGE_TEMPLATE="subscription/index.html"' | sudo tee -a /opt/pasarguard/.env
-```
 
-## ری‌استارت
+ری‌استارت
 
-```bash
 pasarguard restart
-```
 
 ---
 
-# ✨ Features
+✨ Features
 
 - 🎨 Cyberpunk UI
 - 🌙 Dark / Light Mode
@@ -109,9 +94,8 @@ pasarguard restart
 
 ---
 
-<div align="center">
-
-Made with ❤️ by Arya Derangi  
+<div align="center">Made with ❤️ by Arya Derangi
 GravityZone
 
 </div>
+```
