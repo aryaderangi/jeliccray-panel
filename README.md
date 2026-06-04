@@ -10,75 +10,76 @@
 [![Telegram](https://img.shields.io/badge/Channel-@gravityyzone-0099ff?style=for-the-badge&logo=telegram)](https://t.me/gravityyzone)
 [![GitHub](https://img.shields.io/badge/Dev-@aryaderangi-181717?style=for-the-badge&logo=github)](https://github.com/aryaderangi)
 
-> تمپلیت اشتراک Cyberpunk برای Marzban / Rebecca / Pasarguard
+# GRAVITY ZONE-Template
+### راهنما هست تو خود کد و میتونید راحت شخصی سازی کنید❤️
 
-</div>
+### Template for rebecca,marzban and pasarguard panel
 
----
-
-# 🔵 Marzban
-
-## دانلود تمپلیت
+![Preview](https://github.com/Deepside-607/NiRos-Template/blob/main/IMG_20251220_182226.jpg?raw=true)
+### مرزبان:  
+### ابتدا قالب را با لینک زیر دانلود کنید
 
 ```bash
-sudo mkdir -p /var/lib/marzban/templates/subscription/
+sudo wget -N -P /var/lib/marzban/templates/subscription/ https://raw.githubusercontent.com/Deepside-607/NiRos-Template/main/index.html
+```
+### سپس دستور زیر را بزنید تا تمپلیت ست شود
 
-sudo wget -O /var/lib/marzban/templates/subscription/index.html \
-https://raw.githubusercontent.com/aryaderangi/gravityzone-panel/main/index.html
-
-ست کردن تمپلیت
-
+```bash
 echo 'CUSTOM_TEMPLATES_DIRECTORY="/var/lib/marzban/templates/"' | sudo tee -a /opt/marzban/.env
-
 echo 'SUBSCRIPTION_PAGE_TEMPLATE="subscription/index.html"' | sudo tee -a /opt/marzban/.env
+```
 
-ری‌استارت
+### سپس با دستور زیر پنل خودتون رو ری‌استارت کنید
 
+```bash
 marzban restart
+```
 
----
+-----------------------
 
-🔵 Rebecca
+### ربکا:  
+### ابتدا قالب را با لینک زیر دانلود کنید
 
-دانلود تمپلیت
+```bash
+sudo wget -N -P /var/lib/rebecca/templates/subscription/ https://raw.githubusercontent.com/Deepside-607/NiRos-Template/main/index.html
+```
+### سپس دستور زیر را بزنید تا تمپلیت ست شود
 
-sudo mkdir -p /var/lib/rebecca/templates/subscription/
-
-sudo wget -O /var/lib/rebecca/templates/subscription/index.html \
-https://raw.githubusercontent.com/aryaderangi/gravityzone-panel/main/index.html
-
-ست کردن تمپلیت
-
+```bash
 echo 'CUSTOM_TEMPLATES_DIRECTORY="/var/lib/rebecca/templates/"' | sudo tee -a /opt/rebecca/.env
-
 echo 'SUBSCRIPTION_PAGE_TEMPLATE="subscription/index.html"' | sudo tee -a /opt/rebecca/.env
+```
 
-ری‌استارت
+### سپس با دستور زیر پنل خودتون رو ری‌استارت کنید
 
+```bash
 rebecca restart
+```
 
----
+-----------------------
 
-🔵 Pasarguard
+### پاسارگارد:  
+### ابتدا قالب را با لینک زیر دانلود کنید
 
-دانلود تمپلیت
+```bash
+sudo wget -N -P /var/lib/pasarguard/templates/subscription/ https://raw.githubusercontent.com/Deepside-607/NiRos-Template/main/index.html
+```
+### سپس دستور زیر را بزنید تا تمپلیت ست شود
 
-sudo mkdir -p /var/lib/pasarguard/templates/subscription/
-
-sudo wget -O /var/lib/pasarguard/templates/subscription/index.html \
-https://raw.githubusercontent.com/aryaderangi/gravityzone-panel/main/index.html
-
-ست کردن تمپلیت
-
+```bash
 echo 'CUSTOM_TEMPLATES_DIRECTORY="/var/lib/pasarguard/templates/"' | sudo tee -a /opt/pasarguard/.env
-
 echo 'SUBSCRIPTION_PAGE_TEMPLATE="subscription/index.html"' | sudo tee -a /opt/pasarguard/.env
+```
 
-ری‌استارت
+### سپس با دستور زیر پنل خودتون رو ری‌استارت کنید
 
+```bash
 pasarguard restart
+```
 
----
+Made with ❤️ by Arya Derangi
+GravityZone Team
+
 
 ✨ Features
 
